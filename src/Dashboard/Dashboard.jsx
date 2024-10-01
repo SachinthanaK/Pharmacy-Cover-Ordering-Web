@@ -1,7 +1,14 @@
 import React from "react";
 
+import Orders from "./components/recentorders/Orders";
+
 const Dashboard = () => {
-  return <h2>Dashboard Page Works!</h2>;
+  return (
+    <div>
+      <h2>Dashboard Page Works!</h2>
+      <Orders />
+    </div>
+  );
 };
 
 export default Dashboard;
